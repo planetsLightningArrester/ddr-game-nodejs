@@ -1,0 +1,16 @@
+{
+  "name": "DDR_node",
+  "version": "0.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gamepad": "^1.6.0",
+    "socket.io": "^2.2.0"
+  }
+}

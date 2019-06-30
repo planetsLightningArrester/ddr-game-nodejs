@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>DDR</title>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" type="image/png" href="/favicon.ico" />
+
+	<script>
+		if (typeof module === 'object') {
+			window.module = module;
+			module = undefined;
+		}
+	</script>
+	<style>
+		@font-face {
+			font-family: 'zorque';
+			src: url(./art/fonts/zorque.ttf);
+		}
+
+		.vertical-center {
+			min-height: 100%;
+			/* Fallback for browsers do NOT support vh unit */
+			min-height: 100vh;
+			/* These two lines are counted as one :-)       */
+
+			display: flex;
+			align-items: center;
+		}
+	</style>
+
+	<!--Songs-->
+	<!-- <audio id="01-hi"><source src="./sounds/01-hi.mp3" type="audio/mpeg"></audio>
+	<audio id="02-letsCount"><source src="./sounds/02-letsCount.mp3" type="audio/mpeg"></audio>
+	<audio id="03-countup"><source src="./sounds/03-countup.mp3" type="audio/mpeg"></audio>
+	<audio id="04-introMusic"><source src="./sounds/04-introMusic.mp3" type="audio/mpeg"></audio>
+	<audio id="05-level1"><source src="./sounds/05-level1.mp3" type="audio/mpeg"></audio> -->
+	<!-- <audio id="_06_heartsStep"><source src="./sounds/06_heartsStep.mp3" type="audio/mpeg"></audio>>
+	<audio id="_01_intro"><source src="./sounds/01_intro.mp3" type="audio/mpeg"></audio>
+	<audio id="_07_xStep"><source src="./sounds/07_xStep.mp3" type="audio/mpeg"></audio>
+	<audio id="_08_sunStep"><source src="./sounds/08_sunStep.mp3" type="audio/mpeg"></audio>
+	<audio id="_04_level2"><source src="./sounds/04_level2.mp3" type="audio/mpeg"></audio>
+	<audio id="_09_endLevel1"><source src="./sounds/09_endLevel1.mp3" type="audio/mpeg"></audio>
+	<audio id="_10_nextLevel2Song"><source src="./sounds/10_nextLevel2Song.mp3" type="audio/mpeg"></audio>
+	<audio id="_11_level2"><source src="./sounds/11_level2.mp3" type="audio/mpeg"></audio>
+	<audio id="_12_triangleStep"><source src="./sounds/12_triangleStep.mp3" type="audio/mpeg"></audio>
+	<audio id="_13_squaresStep"><source src="./sounds/13_squaresStep.mp3" type="audio/mpeg"></audio>
+	<audio id="_14_bearStep"><source src="./sounds/14_bearStep.mp3" type="audio/mpeg"></audio>
+	<audio id="_07_level3"><source src="./sounds/07_level3.mp3" type="audio/mpeg"></audio>
+	<audio id="_15_endLevel2"><source src="./sounds/15_endLevel2.mp3" type="audio/mpeg"></audio>
+	<audio id="_16_nextLevel3Song"><source src="./sounds/16_nextLevel3Song.mp3" type="audio/mpeg"></audio>
+	<audio id="_17_level3"><source src="./sounds/17_level3.mp3" type="audio/mpeg"></audio>
+	<audio id="_18_ballStep"><source src="./sounds/18_ballStep.mp3" type="audio/mpeg"></audio>
+	<audio id="_19_flowerStep"><source src="./sounds/19_flowerStep.mp3" type="audio/mpeg"></audio>
+	<audio id="_09_endGame"><source src="./sounds/09_endGame.mp3" type="audio/mpeg"></audio>
+	<audio id="_20_congrats"><source src="./sounds/20_congrats.mp3" type="audio/mpeg"></audio>
+	<audio id="_21_endGame"><source src="./sounds/21_endGame.mp3" type="audio/mpeg"></audio>
+	<audio id="_xx_hit"><source src="./sounds/xx_hit.mp3" type="audio/mpeg"></audio>
+	<audio id="_xx_miss"><source src="./sounds/xx_miss.mp3" type="audio/mpeg"></audio> -->
+
+	<!--Libraries JS-->
+	<script src="./js/socket.io.dev.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./js/popper.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/particles.min.js"></script>
+	<script src="./js/howler.min.js"></script>
+
+	<!--Libraries CSS-->
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/heart.css">
+	<link rel="stylesheet" href="./css/texto.css">
+
+	<!--Source JS-->
+	<script src="./js/turnSound.js"></script>
+	
+	<script>
+		if (window.module) module = window.module;
+		</script>
+
+</head>
+
+<body>
+	<script src="./js/mo.min.js"></script>
+	<script src="./js/animations.js"></script>
+	<script src="./js/routine.js"></script>
+
+	<div class="jumbotron vertical-center" style="background-color: black">
+		<div id = "textDiv" class="container" style="text-align: center; max-width: 1920px;">
+
+		</div>
+	</div>
+
+</body>
+
+</html>
